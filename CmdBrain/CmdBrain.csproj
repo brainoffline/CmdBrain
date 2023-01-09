@@ -1,0 +1,107 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>No8.CmdBrain</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="CmdBrain.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Figlet\fonts\3D.flf" />
+    <EmbeddedResource Include="Figlet\fonts\3DASCII.flf" />
+    <EmbeddedResource Include="Figlet\fonts\3ddiagonal.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Acrobatic.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Alpha.flf" />
+    <EmbeddedResource Include="Figlet\fonts\AMCAAA01.flf" />
+    <EmbeddedResource Include="Figlet\fonts\AMCRazor.flf" />
+    <EmbeddedResource Include="Figlet\fonts\AMCSlash.flf" />
+    <EmbeddedResource Include="Figlet\fonts\AMCSlider.flf" />
+    <EmbeddedResource Include="Figlet\fonts\ANSIRegular.flf" />
+    <EmbeddedResource Include="Figlet\fonts\ANSIShadow.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Banner.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Banner3D.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Basic.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Bell.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Big.flf" />
+    <EmbeddedResource Include="Figlet\fonts\BigChief.flf" />
+    <EmbeddedResource Include="Figlet\fonts\BigMoneyNE.flf" />
+    <EmbeddedResource Include="Figlet\fonts\BigMoneyNW.flf" />
+    <EmbeddedResource Include="Figlet\fonts\BigMoneySE.flf" />
+    <EmbeddedResource Include="Figlet\fonts\BigMoneySW.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Block.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Bloody.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Braced.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Broadway.flf" />
+    <EmbeddedResource Include="Figlet\fonts\BroadwayKB.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Bubble.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Bulbhead.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Caligraphy2.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Coinstak.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Cola.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Cosmic.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Crazy.flf" />
+    <EmbeddedResource Include="Figlet\fonts\DancingFont.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Digital.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Doh.flf" />
+    <EmbeddedResource Include="Figlet\fonts\DotMatrix.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Double.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Electronic.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Elite.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Fraktur.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Georgia11.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Georgia16.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Graffiti.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Impossible.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Isometric1.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Isometric2.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Isometric3.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Isometric4.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Lean.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Letters.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Maxiwi.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Merlin1.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Mini.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Miniwi.flf" />
+    <EmbeddedResource Include="Figlet\fonts\NancyjFancy.flf" />
+    <EmbeddedResource Include="Figlet\fonts\NancyjImproved.flf" />
+    <EmbeddedResource Include="Figlet\fonts\NancyjUnderlined.flf" />
+    <EmbeddedResource Include="Figlet\fonts\NScript.flf" />
+    <EmbeddedResource Include="Figlet\fonts\PatorjkHeX.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Pebbles.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Rebel.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Roman.flf" />
+    <EmbeddedResource Include="Figlet\fonts\SantaClara.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Script.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Shadow.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Shimrod.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Slant.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Small.flf" />
+    <EmbeddedResource Include="Figlet\fonts\SmallIsometric.flf" />
+    <EmbeddedResource Include="Figlet\fonts\SmScript.flf" />
+    <EmbeddedResource Include="Figlet\fonts\SmShadow.flf" />
+    <EmbeddedResource Include="Figlet\fonts\SmSlant.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Soft.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Speed.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Standard.flf" />
+    <EmbeddedResource Include="Figlet\fonts\StarWars.flf" />
+    <EmbeddedResource Include="Figlet\fonts\SubZero.flf" />
+    <EmbeddedResource Include="Figlet\fonts\SwampLand.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Swan.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Sweet.flf" />
+    <EmbeddedResource Include="Figlet\fonts\This.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Train.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Univers.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Varsity.flf" />
+    <EmbeddedResource Include="Figlet\fonts\Whimsy.flf" />
+  </ItemGroup>
+</Project>
